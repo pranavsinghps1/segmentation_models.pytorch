@@ -77,7 +77,8 @@ new_settings = {
     },
     "resnet50": {
         "ssl": "https://dl.fbaipublicfiles.com/semiweaksupervision/model_files/semi_supervised_resnet50-08389792.pth",  # noqa
-        "swsl": "https://dl.fbaipublicfiles.com/semiweaksupervision/model_files/semi_weakly_supervised_resnet50-16a12f1b.pth",  # noqa
+        "swsl": "https://dl.fbaipublicfiles.com/semiweaksupervision/model_files/semi_weakly_supervised_resnet50-16a12f1b.pth",
+        "med" : "https://github.com/mateuszbuda/brain-segmentation-pytorch/blob/master/weights/unet.pt",  # new
     },
     "resnext50_32x4d": {
         "imagenet": "https://download.pytorch.org/models/resnext50_32x4d-7cdf4587.pth",
@@ -92,7 +93,8 @@ new_settings = {
         "imagenet": "https://download.pytorch.org/models/resnext101_32x8d-8ba56ff5.pth",
         "instagram": "https://download.pytorch.org/models/ig_resnext101_32x8-c38310e5.pth",
         "ssl": "https://dl.fbaipublicfiles.com/semiweaksupervision/model_files/semi_supervised_resnext101_32x8-2cfe2f8b.pth",  # noqa
-        "swsl": "https://dl.fbaipublicfiles.com/semiweaksupervision/model_files/semi_weakly_supervised_resnext101_32x8-b4712904.pth",  # noqa
+        "swsl": "https://dl.fbaipublicfiles.com/semiweaksupervision/model_files/semi_weakly_supervised_resnext101_32x8-b4712904.pth",
+        "med" : "https://github.com/mateuszbuda/brain-segmentation-pytorch/blob/master/weights/unet.pt", # new
     },
     "resnext101_32x16d": {
         "instagram": "https://download.pytorch.org/models/ig_resnext101_32x16-c6f796b0.pth",
@@ -105,6 +107,7 @@ new_settings = {
     "resnext101_32x48d": {
         "instagram": "https://download.pytorch.org/models/ig_resnext101_32x48-3e41cc8a.pth",
     },
+
 }
 
 pretrained_settings = deepcopy(pretrained_settings)
